@@ -9,12 +9,13 @@
 <body>
     <main>
         <h1>counter</h1>
-        <div class="counter">0</div>
+        <div class="counter" id="counterTxt">0</div>
         <div class="button">
-            <button>decrease</button>
-            <button>reset</button>
-            <button>increase</button>
+            <button onclick="counterBtn('-')">decrease</button>
+            <button onclick="counterBtn()">reset</button>
+            <button onclick="counterBtn('+')">increase</button>
         </div>
     </main>
+    <script src="scrpit.js"></script>
 </body>
 </html>
